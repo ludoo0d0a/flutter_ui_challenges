@@ -14,7 +14,10 @@ import 'core/presentation/pages/home.dart';
 import 'features/auth/data/model/user_repository.dart';
 import 'features/auth/data/service/firestore_service.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
