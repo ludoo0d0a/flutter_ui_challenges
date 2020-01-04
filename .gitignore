@@ -79,5 +79,4 @@ build/
 **/google-services.json
 **/GoogleService-Info.plist
 .flutter-plugins-dependencies
-!/android/app/google-services.json
-!/ios/Runner/GoogleService-Info.plist
+
